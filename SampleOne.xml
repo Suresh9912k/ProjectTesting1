@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cross Bowser  Testing SimpleOne">
+
+    <!-- This is test-1 -->
+	<test name="Test On Chrome">
+	
+	<parameter name="Browser" value="chrome" />
+	<parameter name="Version" value="116.0" />
+	<parameter name="Platform" value="windows 10" />
+		<classes>
+			<class name="ProjectOne.CrossBowser_Testing">				
+			</class>
+		</classes>
+	</test> 
+
+
+
+    <!-- This is test-2 
+	<test name="Test On Edge">
+	
+	<parameter name="Browser" value="edge" />
+	<parameter name="Version" value="116.0" />
+	<parameter name="Platform" value="windows 10" />
+		<classes>
+			<class name="ProjectOne.CrossBowser_Testing">				
+			</class>
+		</classes>
+	</test> 
+	-->
+
+	
+</suite> 

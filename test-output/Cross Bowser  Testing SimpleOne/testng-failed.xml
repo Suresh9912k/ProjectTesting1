@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cross Bowser  Testing SimpleOne]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test On Chrome(failed)">
+    <parameter name="Platform" value="windows 10"/>
+    <parameter name="Version" value="116.0"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="ProjectOne.CrossBowser_Testing">
+        <methods>
+          <include name="setup"/>
+          <include name="testDropDowns"/>
+          <include name="testDropDowns2"/>
+        </methods>
+      </class> <!-- ProjectOne.CrossBowser_Testing -->
+    </classes>
+  </test> <!-- Test On Chrome(failed) -->
+</suite> <!-- Failed suite [Cross Bowser  Testing SimpleOne] -->

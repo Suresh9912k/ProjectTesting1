@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Lambda Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Task" value="Download File"/>
+  <parameter name="URL" value="https://www.lambdatest.com/selenium-playground/"/>
+  <test thread-count="5" name="Lambda Test01(failed)">
+    <parameter name="TestResult" value="Pass"/>
+    <classes>
+      <class name="LambdaTest01.Test1">
+        <methods>
+          <include name="setUp"/>
+          <include name="Test_Scenario_03" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- LambdaTest01.Test1 -->
+    </classes>
+  </test> <!-- Lambda Test01(failed) -->
+</suite> <!-- Failed suite [Lambda Test Suite] -->
